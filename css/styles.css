@@ -1,0 +1,32 @@
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  background-color: #9fe5e8;
+}
+
+.social-icon {
+  color: #2e3943;
+  margin-bottom: 10px;
+}
+
+a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#imagemCarro {
+  width: 100%;
+}
+
+.card,
+.card-group {
+  background-color: #9fe5e8;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  #imagemCarro {
+    margin: 100px 30px;
+  }
+}
